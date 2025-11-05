@@ -29,6 +29,41 @@ latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so tha
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
+### Install dependencies
+
+Run the following command to install all required Ruby gems, including the **Chirpy** theme and its plugins:
+
+```bash
+bundle install
+```
+
+This command reads your `Gemfile` and installs every dependency needed for your Jekyll site to run properly.
+
+### Start the local development server
+
+Once installation is complete, launch the site locally with:
+
+```bash
+bundle exec jekyll s
+```
+
+This command will:
+- Build the entire site from your `_posts`, `_pages`, and `_layouts` directories  
+- Start a local web server at  
+  👉 **http://localhost:4000**
+
+Open that address in your browser to preview your blog in real time.
+
+### Stop the server
+
+When running, press `Ctrl + C` in the terminal to stop the local server.
+
+## Note
+
+- Using `bundle exec` ensures Jekyll runs with the correct gem versions specified in your project.
+- You can customize site settings in `_config.yml`.
+- For deployment, see the [official Chirpy documentation](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+
 ## Contributing
 
 This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
