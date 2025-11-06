@@ -526,3 +526,5 @@ Events...).
 </p>
 
 ## **6. Các kỹ thuật khi code**
+
+> _**Coming soon... Đọc source demo và code theo thoiii**_
